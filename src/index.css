@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.info::-webkit-scrollbar{
+    width: 30px;
+    /* background-color: red; */
+}
+.info{
+    overflow-y:scroll;
+
+}
+.info::-webkit-scrollbar-thumb{
+    width: 30px;
+    height: 30px;
+
+    /* background-color: red; */
+}
+body::-webkit-scrollbar{
+display: none;
+}
+

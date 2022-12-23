@@ -3,7 +3,7 @@ import About from './About'
 
 const index = () => {
   return (
-    <div>
+    <div className='mt-20'>
       <About/>
     </div>
   )

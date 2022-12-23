@@ -9,7 +9,7 @@ HUB IT is recognized as one of Nepal’s best global skill development and IT tr
 
 Being the best IT training institute in Nepal, HUB IT is determined to combine education and job creation that forms a unique ecosystem. Here people are connected globally with a purpose and mutual benefit. The courses provided by HUB IT will help in education and job creation on a global scale.
 
-Here everyone gets the same opportunity to leverage our services to learn the skills necessary for making a living in the digital workplace.We believe that investing in youth education will help the freelancing marketplaces with more skilled and qualified workers.</p>
+Here everyone gets the same opportunity to leverage our services to learn the skills necessary for making a living in the digital workplace.We believe that investing in youth education will help the freelancing marketplaces with more skilled and qualified workers</p>
     </div>
   )
 }

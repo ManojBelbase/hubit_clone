@@ -1,14 +1,14 @@
 import React from 'react'
 import Home2nd from './Home2nd'
 import Home from './Home'
-import Home3rd from './Home3rd'
+import Welcome from './Welcome'
 
 const index = () => {
   return (
-    <div>
+    <div className=''>
         <Home/>
         <Home2nd/>
-        <Home3rd/>
+        <Welcome/>
     </div>
   )
 }
