@@ -10,7 +10,7 @@ const img =
   "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fteacher.f0c1ea44.png&w=1920&q=75";
 const Home = () => {
   return (
-    <div className="grid h-screen grid-cols-2 bg-[#FAFAFA] pt-2b mt-16">
+    <div className="grid h-screen w-screen grid-cols-2 bg-[#FAFAFA] pt-2b mt-16">
       {/* content section */}
       <div className="m-auto pl-20">
         <p className="flex gap-3 pb-3 text-xl">
@@ -48,11 +48,11 @@ const Home = () => {
       {/* image section */}
       <div className="flex items-center relative">
         <img src={img} alt="imag" className=" m-auto" />
-          <span className="absolute h-16 w-56 border-gray-900 border-1 shadow-xl bg-gray-100 left-32 top-64 pl-6 pt-2">
-          <p className="text-xs text-mainColor">Featured Courses</p>
-          <p className="text-xs font-normal">Became a Full Stack Developer with MERN Stack</p> 
-          </span>
-          <p className="absolute h-8 w-8 rounded-full bg-[#CA8A04] bottom-48 left-28 shadow-zinc-800"></p>
+          {/* <span className="absolute h-16 w-56 border-gray-900 border-1 shadow-xl bg-gray-100 left-32 top-64 pl-6 pt-2"> */}
+          {/* <p className="text-xs text-mainColor">Featured Courses</p> */}
+          {/* <p className="text-xs font-normal">Became a Full Stack Developer with MERN Stack</p>  */}
+          {/* </span> */}
+          {/* <p className="absolute h-8 w-8 rounded-full bg-[#CA8A04] bottom-48 left-28 shadow-zinc-800"></p> */}
         </div>
       </div>
   );

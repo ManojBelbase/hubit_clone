@@ -15,14 +15,14 @@ const Welcome = () => {
           voluptatem obcaecati, eligendi itaque quasi delectus at officiis quas
           porro unde aperiam ipsa.
         </p>
-        <button className="text-sm ring-offset-0 ring-1 ring-mainColor rounded-3xl py-2 px-4 hover:scale-110 duration-300 ">
+        <button className="text-sm ring-offset-0 ring-1 ring-mainColor text-mainColor rounded-3xl py-2 px-4 hover:scale-110 duration-300 ">
           Learn More
         </button>
       </div>
       {/* Image section */}
-      <div className=" grid grid-cols-2 gap-4 mt-7">
+      <div className=" grid grid-cols-2 gap-1 items-center">
         <div className="gap-4">
-           <img src="https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportal.2193f6b1.jpg&w=1920&q=75" alt="" />
+           <img src="https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportal.2193f6b1.jpg&w=1920&q=75" className="h-96" alt="" />
         </div>
 
         <div className=" grid grid-rows-2 gap-3">

@@ -23,11 +23,11 @@ const data = [
   },
   {
     title: "Co-Operate Training",
-    path: "/about",
+    path: "/training",
   },
   {
     title: "notice",
-    path: "/about",
+    path: "/notice",
   },
 ];
 const url = "https://hubit.com.np/_next/static/media/hubitLogo.14c101fa.svg";
@@ -35,7 +35,7 @@ const Second = () => {
   const location = useLocation();
   console.log(location);
   return (
-    <div className="flex justify-between h-14 shadow-2xl border-2 shadow-gray-350 px-24 gap-9">
+    <div className="flex justify-between h-14 w-screen shadow-2xl border-2 shadow-gray-350 px-24 gap-9">
       <div className="left flex items-center justify-between">
         <img src={url} alt="logo" className="h-14" />
         <div className="pl-16">
@@ -53,7 +53,7 @@ const Second = () => {
                   className={`cursor-pointer border-b-2 border-transparent transition-all duration-200 delay-100 hover:border-b-2
             ${
               location.pathname === val.path ? "border-mainColor" : ""
-            } hover:border-mainColor`}
+            }`}
                 >
                   {val.title}
                 </p>
