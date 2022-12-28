@@ -4,7 +4,7 @@ import Home from './Home'
 import Welcome from './Welcome'
 import PopularCourse from './PopularCourse'
 import Choose from './Choose'
-// import Reviews from './Reviews'
+import Reviews from './Reviews'
 
 const index = () => {
   return (
@@ -14,7 +14,7 @@ const index = () => {
         <Welcome/>
         <PopularCourse/>
         <Choose/>
-        {/* <Reviews/> */}
+        <Reviews/>
     </div>
   )
 }

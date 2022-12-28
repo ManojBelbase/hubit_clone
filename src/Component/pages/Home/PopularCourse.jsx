@@ -4,7 +4,7 @@ import {GrFormNext,GrFormPrevious} from "react-icons/gr"
 
 const PopularCourse = () => {
   return (
-    <div className='h-60 bg-white flex'>
+    <div className='h-60 bg-white flex text-black'>
       {/* middle section */}
         <div className='text-center m-auto items-center'>
             <p className='mb-2'><IoSchool className='text-3xl ml-24 text-white bg-mainColor border-4 border-mainColor rounded-2xl text-center'/></p>

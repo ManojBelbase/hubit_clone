@@ -5,7 +5,7 @@ const Welcome = () => {
     <div className="h-screen grid grid-cols-2 mt-5 bg-[#F4F4F4]">
       {/* Text section */}
       <div className="m-10">
-        <p className="text-2xl font-bold pb-3">Welcome To Our Portal</p>
+        <p className="text-2xl font-bold pb-3 text-black">Welcome To Our Portal</p>
         <p className="text-gray-500 mb-6">
           Lorem ipsum dolor sit amt consectetur adipisicing elit. Dolores quia
           rerum natus voluptate voluptates odit ducimus consectetur voluptatem

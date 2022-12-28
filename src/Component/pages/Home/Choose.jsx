@@ -35,7 +35,7 @@ const data = [
 ];
 const Choose = () => {
   return (
-    <div className="h-screen w-screen grid grid-cols-3">
+    <div className="h-screen w-screen grid grid-cols-3 text-black">
       {/* left side */}
       <div className="flex justify-center items-center flex-col">
         <p className="font-bold text-xl">Why Choose</p>
