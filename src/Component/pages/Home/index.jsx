@@ -5,12 +5,14 @@ import Welcome from './Welcome'
 import PopularCourse from './PopularCourse'
 import Choose from './Choose'
 import Reviews from './Reviews'
+// import Banner from '../../pageComponents/Home/Banner'
 
 const index = () => {
   return (
-    <div className=''>
+    <div className='mt-44'>
+      {/* <Banner /> */}
         <Home/>
-        <Home2nd/>
+         <Home2nd/> 
         <Welcome/>
         <PopularCourse/>
         <Choose/>

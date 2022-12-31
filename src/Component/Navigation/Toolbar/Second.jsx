@@ -34,9 +34,10 @@ const data = [
 const url = "https://hubit.com.np/_next/static/media/hubitLogo.14c101fa.svg";
 const Second = ({ShowSideBar}) => {
   const location = useLocation();
-  // console.log(location);
+  // console.log(location);-
   return (
-    <div className="flex justify-between h-14 w-screen shadow-2xl border-2 shadow-gray-350 px-24 gap-9 items-center">
+    
+    <div className="flex justify-between h-12 w-screen shadow-2xl border-2 shadow-gray-350 px-24 gap-8 items-center">
       <div className="left flex items-center justify-between">
         <img src={url} alt="logo" className="h-14" />
         <div className="pl-16">
@@ -66,7 +67,7 @@ const Second = ({ShowSideBar}) => {
         More
       </div>
       <div className="text-black fixed top-10 left-5 text-3xl" onClick={()=>{ShowSideBar()}}><FiMenu/></div>
-    </div>
+      </div>
   );
 };
 

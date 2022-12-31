@@ -14,9 +14,8 @@ const Layout = ({children}) => {
         <Toolbar ShowSideBar={ShowSideBar} /> 
         <Sidebar Show={show} ShowSideBar={ShowSideBar} />
        
-        <div>{children}</div>
+        <div className=''>{children}</div>
     </div>
   )
-}
-
+  }
 export default Layout

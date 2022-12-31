@@ -25,7 +25,7 @@ const obj = [
 export const header = () => {
   return (
     <>
-      <div className="flex justify-between text-white px-16 bg-mainColor py-2 items-center">
+      <div className="flex justify-between text-white px-16 bg-mainColor py-2 items-center lg:flex md:hidden sm:hidden">
         <div className="left flex gap-2 text-xs items-center">
           <p>
             <IoMdCall className="text-base" />

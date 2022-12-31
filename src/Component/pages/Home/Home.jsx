@@ -10,7 +10,7 @@ const img =
   "https://hubit.com.np/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fteacher.f0c1ea44.png&w=1920&q=75";
 const Home = () => {
   return (
-    <div className="grid h-screen w-screen grid-cols-2 bg-[#FAFAFA] pt-2b mt-16">
+    <div className="grid h-screen w-screen grid-cols-2">
       {/* content section */}
       <div className="m-auto pl-20">
         <p className="flex gap-3 pb-3 text-xl">
@@ -19,7 +19,7 @@ const Home = () => {
           <AiFillTwitterCircle className="text-mainColor ring-offset-2 ring-1 ring-mainColor rounded-xl" />
           <AiFillInstagram className="text-mainColor ring-offset-2 ring-1 ring-mainColor rounded-xl" />
         </p>
-        <p className="text-mainColor text-ls font-bold pb-1">
+        <p className="text-mainColor text-lg font-bold pb-1">
           IT Training Institute in Nepal
         </p>
         <p className="text-sm text-gray-600 pb-6">
