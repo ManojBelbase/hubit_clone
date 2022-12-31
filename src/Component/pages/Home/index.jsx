@@ -9,7 +9,7 @@ import Reviews from './Reviews'
 
 const index = () => {
   return (
-    <div className='mt-44'>
+    <div className=''>
       {/* <Banner /> */}
         <Home/>
          <Home2nd/> 

@@ -39,14 +39,14 @@ const Second = ({ShowSideBar}) => {
     
     <div className="flex justify-between h-12 w-screen shadow-2xl border-2 shadow-gray-350 px-24 gap-8 items-center">
       <div className="left flex items-center justify-between">
-        <img src={url} alt="logo" className="h-14" />
+        <img src={url} alt="logo" className="h-14 md:hidden sm:hidden lg:block" />
         <div className="pl-16">
-          <button className="bg-mainColor text-white p-1 text-xs rounded-md hover:scale-110 duration-300 animate-pulse">
+          <button className="bg-mainColor text-white p-1 text-xs rounded-md hover:scale-110 duration-300 animate-pulse md:hidden sm:hidden lg:block">
             Online Admission
           </button>
         </div>
       </div>
-      <div className="right flex gap-3 items-center text-xs capitalize text-gray-500">
+      <div className="right flex gap-3 items-center text-xs capitalize text-gray-500 md:hidden sm:hidden lg:block lg:flex">
         {data.map((val, i) => {
           return (
             <div key={i} className="flex">
@@ -66,7 +66,7 @@ const Second = ({ShowSideBar}) => {
         })}
         More
       </div>
-      <div className="text-black fixed top-10 left-5 text-3xl" onClick={()=>{ShowSideBar()}}><FiMenu/></div>
+      <div className="text-black fixed top-3 left-5 text-3xl lg:hidden" onClick={()=>{ShowSideBar()}}><FiMenu/></div>
       </div>
   );
 };
