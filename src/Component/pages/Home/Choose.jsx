@@ -35,20 +35,18 @@ const data = [
 ];
 const Choose = () => {
   return (
-    <div className="h-screen w-screen grid grid-cols-3 text-black">
+    <div className="mt-10 mb-6 w-screen grid grid-cols-3 text-black lg:grid-cols-3 sm:grid-cols-1 sm:m-10">
       {/* left side */}
       <div className="flex justify-center items-center flex-col">
         <p className="font-bold text-xl">Why Choose</p>
         <p className="text-mainColor font-bold ">HUBIT</p>
       </div>
 {/* right side  */}
-      <div className="grid col-span-2 grid-cols-3 items-center gap-3">
+      <div className="m-7 grid col-span-2 grid-cols-3 items-center gap-3 lg:grid-cols-3 sm:grid-cols-1 sm:ml-7 md:ml-6">
         {data.map((val ,i)=>{
               return(
                 <div key={i} className="">
-                  {/* <p className="border-2 rounded-full border-black h-12 w-12 text-center">
-                    {<val.image className="text-2xl mx-auto "/>}</p> */}
-                      <div className="flex items-center justify-center">
+                      <div className="flex items-center justify-center m-3">
                     <val.image className="border-2 rounded-full p-1 text-4xl border-black"/>
                     </div>
                   <p className="text-sm font-bold">{val.title}</p>

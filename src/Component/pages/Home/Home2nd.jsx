@@ -21,16 +21,16 @@ const data = [
 
 const Home2nd = () => {
   return (
-    <div className="h-80 pt-5 bg-white w-screen">
-      <div className="grid grid-cols-3">
+    <div className="pt-5 bg-white w-screen">
+      <div className="grid grid-cols-3 lg:grid-cols-3 sm:grid-cols-1">
         {data.map((val, i) => {
           return (
-            <div key={i} className=" border-b-4 border-b-transparent border-r-2 px-6 pb-3 hover:border-b-4   hover:border-b-mainColor delay-100 duration-700 transition-all">
-                <div className="flex items-center gap-2 font-semibold text-lg pb-2 ">
+            <div key={i} className=" border-b-4 border-b-transparent border-r-2 px-6 pb-3 hover:border-b-4 hover:border-b-mainColor delay-100 duration-700 transition-all lg:border-r-2 lg:border-b-4 lg:border-b-transparent sm:border-r-0 sm:border-b-2 sm:b sm:border-gray-500 sm:mb-2 ">
+                <div className="flex items-center gap-2 font-semibold text-lg pb-4 ">
                     <val.image className="text-mainColor font-bold text-3xl" />
                   <p>{val.title}</p>
                 </div>
-                <p className="text-sm text-gray-600 h-60  overflow-scroll info">{val.info}</p>
+                <p className="text-sm text-gray-600 h-48  overflow-scroll info">{val.info}</p>
               </div>
           )
         })}
